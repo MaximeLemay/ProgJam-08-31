@@ -5,7 +5,7 @@ using KingdomMapper.Tiling;
 namespace KMUnitTests
 {
     [TestClass]
-    public class TileTest
+    public class TilingTest
     {
 
         private Tile testTile() {

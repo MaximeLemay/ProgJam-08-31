@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace KMUnitTests
 {
     [TestClass]
-    public class CoordinatesTest
+    public class HexTests
     {
         [TestMethod]
         public void checkConvertAxtoCb()

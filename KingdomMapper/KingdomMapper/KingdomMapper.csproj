@@ -41,7 +41,6 @@
   <ItemGroup>
     <Compile Include="Hex\Coordinates.cs" />
     <Compile Include="Hex\Grid.cs" />
-    <Compile Include="Map.cs" />
     <Compile Include="Tiling\Improvement.cs" />
     <Compile Include="Hex\Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
