@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace KingdomMapper
 {
-    public class Improvement
+    public class Ressource
     {
         public string name { get; set; }
-        public string description { get; set; }
+        public string notes { get; set; }
     }
 }
