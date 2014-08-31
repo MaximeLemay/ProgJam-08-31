@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace KingdomMapper
+namespace KingdomMapper.Tiling
 {
     public class Tile
     {
@@ -10,7 +10,11 @@ namespace KingdomMapper
             Forest,
             Hills,
             Mountains,
-            Swamp,
+            Marsh,
+            Jungle,
+            Desert,
+            Coastline,
+            Cavern,
             Water
         };
 
@@ -20,6 +24,17 @@ namespace KingdomMapper
             Road,
             Highway
         };
+
+
+        public Tile() {
+            improvements = new List<Improvement>();
+            name = "";
+            isExplored = false;
+            isPacified = false;
+            isFogged = true;
+            terrainType = Terrain.Plains;
+            roadType = Road.None;
+        }
 
         public string name { get; set; }
         public bool isExplored { get; set; }

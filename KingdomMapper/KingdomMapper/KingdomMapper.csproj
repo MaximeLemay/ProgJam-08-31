@@ -39,11 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Improvement.cs" />
+    <Compile Include="Hex\Coordinates.cs" />
+    <Compile Include="Hex\Grid.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Tiling\Improvement.cs" />
+    <Compile Include="Hex\Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ressource.cs" />
-    <Compile Include="Settlement.cs" />
-    <Compile Include="Tile.cs" />
+    <Compile Include="Tiling\Ressource.cs" />
+    <Compile Include="Tiling\Settlement.cs" />
+    <Compile Include="Tiling\Tile.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

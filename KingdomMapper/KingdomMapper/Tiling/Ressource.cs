@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KingdomMapper
+namespace KingdomMapper.Tiling
 {
-    public class Settlement
+    public class Ressource
     {
         public string name { get; set; }
-        public bool isAffiliated { get; set; }
-        public string kingdom { get; set; }
+        public string notes { get; set; }
     }
 }
